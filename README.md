@@ -1,0 +1,1 @@
+# Salarios-Qt-creator
