@@ -37,17 +37,14 @@ void Principal::on_cmdCalcular_released()
 
     if (this->ui->inMatutino->isChecked()){
         jornada = 'm';
-        salario = (horas * 5.15)*2 ;
-        //Tomando en cuenta el valor básico de un suelo de 400$
+        salario = (horas * 5.15) ;
         //Hora de trabajo al 25% (recargas)
-        //Adicional a cada hora de trabajo ,recargo de las obras
-        //multiplico por 2 las horas extras del trabajador
+        
 
     }else if (this->ui->inVespertino->isChecked()){
         jornada = 'v';
-        salario = (horas * 8.50)*2 ;
+        salario = (horas * 8.50) ;
         //Hora de trabajo al 50% (recargas)
-        //multiplico por 2 las horas extras del trabajador
 
 
     }else{
@@ -84,7 +81,7 @@ void Principal::on_cmdCalcular_released()
    depurar();
 
 }
-
+//Control + G
 void Principal::guardarpc()
 {
     //Guarda el algoritmo programado a la carpeta específica del computador
