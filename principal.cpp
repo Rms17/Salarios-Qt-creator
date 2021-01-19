@@ -37,7 +37,7 @@ void Principal::on_cmdCalcular_released()
 
     if (this->ui->inMatutino->isChecked()){
         jornada = 'm';
-        salario = (horas * 4.18)*2 ;
+        salario = (horas * 5.15)*2 ;
         //Tomando en cuenta el valor básico de un suelo de 400$
         //Hora de trabajo al 25% (recargas)
         //Adicional a cada hora de trabajo ,recargo de las obras
@@ -45,14 +45,14 @@ void Principal::on_cmdCalcular_released()
 
     }else if (this->ui->inVespertino->isChecked()){
         jornada = 'v';
-        salario = (horas * 5.01)*2 ;
+        salario = (horas * 8.50)*2 ;
         //Hora de trabajo al 50% (recargas)
         //multiplico por 2 las horas extras del trabajador
 
 
     }else{
         jornada = 'n';
-        salario = (horas * 6.68)*2 ;
+        salario = (horas * 12.65)*2 ;
         //Hora de trabajo al 100% (recargas)
 
     }
