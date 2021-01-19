@@ -49,7 +49,7 @@ void Principal::on_cmdCalcular_released()
 
     }else{
         jornada = 'n';
-        salario = (horas * 12.65)*2 ;
+        salario = (horas * 12.65) ;
         //Hora de trabajo al 100% (recargas)
 
     }
