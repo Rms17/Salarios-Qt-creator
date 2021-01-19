@@ -14,8 +14,8 @@ class CalculoSalario : public QObject
 private:
    /*CONSTANTES*/
    float const VALOR_HORA_MATUTINO = 5.15;
-   float const VALOR_HORA_VESPERTINO = 5.15;
-   float const VALOR_HORA_NOCTURNO = 5.15;
+   float const VALOR_HORA_VESPERTINO = 8.50;
+   float const VALOR_HORA_NOCTURNO = 12.65;
    float const PORCENTAJE_DESCUENTO=9.5;
 
    /*VARIABLES MIEMBROS*/
